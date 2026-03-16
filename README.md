@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \# Tomato Leaf Disease Detection 🍅
 
 
@@ -74,3 +75,6 @@ streamlit run app.py
 
 \- Tomato\_healthy
 
+=======
+# Tomato_Disease_Project
+>>>>>>> 9e7a447b473a80d78e6c054c4c45a3bfad09e20b
