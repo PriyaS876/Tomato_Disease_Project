@@ -91,7 +91,7 @@ The uploaded image is:
 
 * resized
 * converted into an array
-* normalized for model input.
+* normalized for model input
 
 ### 3️⃣ Model Prediction
 
@@ -101,7 +101,7 @@ The trained CNN model analyzes the image and predicts the disease category.
 
 The predicted disease name is displayed to the user.
 
-
+---
 
 # 🚀 Installation and Setup
 
@@ -109,31 +109,69 @@ Follow these steps to run the project on your system.
 
 ## Step 1: Clone the Repository
 
-
+```bash
 git clone https://github.com/PriyaS876/Tomato_Disease_Project.git
-
+```
 
 ## Step 2: Navigate to Project Folder
 
-```
+```bash
 cd Tomato_Disease_Project
 ```
 
 ## Step 3: Install Required Libraries
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
 ## Step 4: Run the Application
 
-```
+```bash
 streamlit run app.py
 ```
 
 The application will open automatically in your browser.
 
+---
 
+# 💻 Running Project Using CMD
+
+If the project is already downloaded on your system, follow these commands:
+
+## Step 1: Open Command Prompt
+
+Go to your project folder location:
+
+```bash
+cd "C:\Users\hp\Downloads\AI-Powered-Multi-Crop-Disease-Detection-Smart-Recommendation-System.-main"
+```
+
+## Step 2: Check Project Files
+
+```bash
+dir
+```
+
+## Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Step 4: Run Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+The application will run on:
+
+```
+http://localhost:8501
+```
+
+---
 
 # 🖥️ Application Interface
 
@@ -143,11 +181,9 @@ The Streamlit application allows users to:
 * View prediction results instantly
 * Easily interact with the AI model
 
-
+---
 
 # 📸 Screenshots
-
-
 
 Example:
 
@@ -156,17 +192,29 @@ images/app_interface.png
 images/prediction_result.png
 ```
 
-
+---
 
 # 💡 Key Features
 
 ✔ AI-based plant disease detection
 ✔ User-friendly interface using Streamlit
-✔ Fast and accurate predictions
+✔ Fast prediction using CNN model
 ✔ Image upload functionality
 ✔ Deep learning based classification
 
+---
 
+# ⚠️ Limitations
+
+- The model works well for tomato leaf disease images, but sometimes it may give wrong predictions for new or different types of leaves.
+- Sometimes healthy tomato leaves may be incorrectly classified as diseased leaves due to similarity in leaf patterns.
+- The prediction accuracy depends on the quality and variety of images used for training.
+- Images with blur, poor lighting, or different backgrounds may affect the prediction results.
+- The model may face difficulty with unseen images that are different from the training dataset.
+- Adding more diverse images, improving the dataset, and retraining the model can help improve performance.
+- Adding more "Other Leaf" images can help the model identify non-tomato leaves better.
+
+---
 
 # 🌱 Future Improvements
 
@@ -178,7 +226,7 @@ This project can be further improved by:
 * Creating a mobile application for farmers
 * Integrating real-time disease detection
 
-
+---
 
 # 📊 Real World Applications
 
@@ -187,6 +235,7 @@ This project can be further improved by:
 * Agricultural research
 * AI-based farming assistance
 
+---
 
 # 👩‍💻 Author
 
@@ -200,7 +249,7 @@ Interested in:
 * Artificial Intelligence
 * Machine Learning
 
-
+---
 
 # ⭐ Support
 
