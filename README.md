@@ -146,7 +146,9 @@ Go to your project folder location:
 ```bash
 cd "C:\Users\hp\Downloads\AI-Powered-Multi-Crop-Disease-Detection-Smart-Recommendation-System.-main"
 ```
+cd "AI-Powered-Multi-Crop-Disease-Detection-Smart-Recommendation-System.-main"
 
+streamlit run app.py
 ## Step 2: Check Project Files
 
 ```bash
